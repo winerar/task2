@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@700&display=swap');\r\n$darkshade100:#1F2041;\r\n$darkshade75: rgba(31, 32, 65, 0.75);\r\n$darkshade50: rgba(31, 32, 65, 0.50);\r\n$darkshade25: rgba(31, 32, 65, 0.25);\r\n$darkshade5: rgba(31, 32, 65, 0.05);\r\n$purple: #BC9CFF;\r\n$green: #6FCF97;\r\nh1 {\r\n    font-weight: bold;\r\n    font-family: Quicksand, sans-serif;\r\n    font-size: 24pt;\r\n    line-height: 34pt;\r\n    color: $darkshade100;\r\n}\r\nh2 {\r\n    font-weight: bold;\r\n    font-family: Quicksand, sans-serif;\r\n    font-size: 19pt;\r\n    line-height: 24pt;\r\n    color: $darkshade100;\r\n}\r\nh3 {\r\n    font-weight: bold;\r\n    font-family: Montserrat, sans-serif;\r\n    font-size: 12pt;\r\n    color: $darkshade100;\r\n    text-transform: uppercase;\r\n    line-height: 15pt;\r\n}\r\nbody {\r\n    font-weight: normal;\r\n    font-family: Montserrat, sans-serif;\r\n    font-size: 14pt;\r\n    line-height: 24pt;\r\n    color: $darkshade75;\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,8GAAI;;AAQZ,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAZK,OAAO;CAapB;;;AACD,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAnBK,OAAO;CAoBpB;;;AACD,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,sBAAsB;EACnC,SAAS,EAAE,IAAI;EACf,KAAK,EAzBK,OAAO;EA0BjB,cAAc,EAAE,SAAS;EACzB,WAAW,EAAE,IAAI;CACpB;;;AACD,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,sBAAsB;EACnC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAjCK,sBAAsB;CAkCnC"
+}
