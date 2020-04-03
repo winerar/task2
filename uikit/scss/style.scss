@@ -1,25 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@700&display=swap');
-$hcolor:#1F2041;
-$textcolor: rgba(31, 32, 65, 0.75);
+$darkshade100:#1F2041;
+$darkshade75: rgba(31, 32, 65, 0.75);
+$darkshade50: rgba(31, 32, 65, 0.50);
+$darkshade25: rgba(31, 32, 65, 0.25);
+$darkshade5: rgba(31, 32, 65, 0.05);
+$purple: #BC9CFF;
+$green: #6FCF97;
 h1 {
     font-weight: bold;
     font-family: Quicksand, sans-serif;
     font-size: 24pt;
     line-height: 34pt;
-    color: $hcolor;
+    color: $darkshade100;
 }
 h2 {
     font-weight: bold;
     font-family: Quicksand, sans-serif;
     font-size: 19pt;
     line-height: 24pt;
-    color: $hcolor;
+    color: $darkshade100;
 }
 h3 {
     font-weight: bold;
     font-family: Montserrat, sans-serif;
     font-size: 12pt;
-    color: $hcolor;
+    color: $darkshade100;
     text-transform: uppercase;
     line-height: 15pt;
 }
@@ -28,5 +33,5 @@ body {
     font-family: Montserrat, sans-serif;
     font-size: 14pt;
     line-height: 24pt;
-    color: $textcolor;
+    color: $darkshade75;
 }
